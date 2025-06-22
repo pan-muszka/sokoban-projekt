@@ -1,18 +1,136 @@
 # depslib dependency file v1.0
-1750610206 source:c:\programming-projects\c++\sokoban\console\main.cpp
+1750615132 source:c:\programming-projects\c++\sokoban\console\main.cpp
 	"Game.h"
 	<cstdio>
+	<conio.h>
+	<iostream>
+	<windows.h>
 
-1750610179 c:\programming-projects\c++\sokoban\console\include\game.h
+1750612319 c:\programming-projects\c++\sokoban\console\include\game.h
 	"Level.h"
 
-1750606752 c:\programming-projects\c++\sokoban\core\level.h
+1750612319 c:\programming-projects\c++\sokoban\core\level.h
 	<vector>
 	<string>
 
-1750610206 source:c:\programming-projects\c++\sokoban\console\src\game.cpp
+1750615193 source:c:\programming-projects\c++\sokoban\console\src\game.cpp
 	"Game.h"
 	<iostream>
 	<conio.h>
 	<windows.h>
+
+1750612319 source:c:\programming-projects\c++\sokoban\core\level.cpp
+	"Level.h"
+	"rapidjson/document.h"
+	"rapidjson/filereadstream.h"
+	<fstream>
+	<iostream>
+	<cstdio>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\document.h
+	"reader.h"
+	"internal/meta.h"
+	"internal/strfunc.h"
+	"memorystream.h"
+	"encodedstream.h"
+	<new>
+	<limits>
+	<iterator>
+	<utility>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\reader.h
+	"allocators.h"
+	"stream.h"
+	"encodedstream.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strtod.h"
+	<limits>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<stdexcept>
+	"rapidjson/error/error.h"
+	"rapidjson/reader.h"
+	"error/error.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\allocators.h
+	"rapidjson.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\rapidjson.h
+	<cstdlib>
+	<cstring>
+	"rapidjson/..."
+	<string>
+	"msinttypes/stdint.h"
+	"msinttypes/inttypes.h"
+	<stdint.h>
+	<inttypes.h>
+	<endian.h>
+	"rapidjson/..."
+	<cassert>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\msinttypes\stdint.h
+	<stdint.h>
+	<limits.h>
+	<wchar.h>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\msinttypes\inttypes.h
+	"stdint.h"
+	<inttypes.h>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\stream.h
+	"rapidjson.h"
+	"encodings.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\encodings.h
+	"rapidjson.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\encodedstream.h
+	"stream.h"
+	"memorystream.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\memorystream.h
+	"stream.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\meta.h
+	"../rapidjson.h"
+	<type_traits>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\stack.h
+	"../allocators.h"
+	"swap.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\swap.h
+	"../rapidjson.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\strtod.h
+	"ieee754.h"
+	"biginteger.h"
+	"diyfp.h"
+	"pow10.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\ieee754.h
+	"../rapidjson.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\biginteger.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\diyfp.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\pow10.h
+	"../rapidjson.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\error\error.h
+	"../rapidjson.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\internal\strfunc.h
+	"../stream.h"
+
+1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\filereadstream.h
+	"stream.h"
+	<cstdio>
 

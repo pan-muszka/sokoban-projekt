@@ -1,0 +1,48 @@
+# Pliki binarne buildów
+bin/
+build/
+obj/
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Pliki tymczasowe Code::Blocks
+*.depend
+*.layout
+*.cbTemp
+
+# Pliki projektu backupowane przez Code::Blocks
+*.autosave
+*.bak
+
+# Pliki tymczasowe kompilatora
+*.d
+
+# Pliki systemowe (Windows)
+Thumbs.db
+Desktop.ini
+
+# Pliki edytorów (na wszelki wypadek)
+*.swp
+*.swo
+*~
+
+# CMake (jeśli będziesz używać kiedyś)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Pliki logów i śmieci
+*.log
+
+# Pliki cache Git
+.git/
+
+# Ogólnie: katalogi buildów per konfiguracja
+Debug/
+Release/
