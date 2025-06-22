@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1750610206 source:c:\programming-projects\c++\sokoban\console\main.cpp
+	"Game.h"
+	<cstdio>
+
+1750610179 c:\programming-projects\c++\sokoban\console\include\game.h
+	"Level.h"
+
+1750606752 c:\programming-projects\c++\sokoban\core\level.h
+	<vector>
+	<string>
+
+1750610206 source:c:\programming-projects\c++\sokoban\console\src\game.cpp
+	"Game.h"
+	<iostream>
+	<conio.h>
+	<windows.h>
+

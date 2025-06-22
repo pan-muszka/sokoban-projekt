@@ -1,0 +1,15 @@
+{
+    "characters": {
+        "wall": "#",
+        "player": "@",
+        "playerongoal": "+",
+        "box": "$",
+        "boxongoal": "*",
+        "goalsquare": ".",
+        "floor": " "
+    },
+    "maps": {
+        "folders": ["maps"],
+        "extensions": [".sokoban"]
+    }
+}
