@@ -31,11 +31,13 @@ void printMap(Level level)
 
 Game::Game()
 {
-    level.loadFromFile("game/maps/built/tutorial.sokoban");
+    // ...
 }
 
-void Game::run()
+void Game::run(GameMap gameMap)
 {
+    level.loadFromFile(gameMap.fullPath);
+
     while (!level.isCompleted())
     {
         clear();
@@ -44,7 +46,7 @@ void Game::run()
 
         printMap(level);
 
-        cout << "Ruch (WASD): ";
+        cout << "'W' - do gory, 'S' - w dol, 'A' - w lewo, 'D' - w prawo, 'R' - reset poziomy, 'M' - powrot";
         char input = _getch();
         switch (tolower(input))
         {
@@ -63,6 +65,8 @@ void Game::run()
         case 'r':
             level.reset();
             break;
+        case 'm':
+            return;
         }
     }
 
@@ -71,4 +75,11 @@ void Game::run()
     printMap(level);
     cout << "Poziom ukonczony!" << endl;
     cout << "Liczba pchniec: " << level.getPushes() << endl << "Liczba ruchow: " << level.getMoves() << endl;
+
+    _getch();
+}
+
+std::vector<GameMap> Game::getMaps()
+{
+    return level.getMaps();
 }

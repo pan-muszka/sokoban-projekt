@@ -46,3 +46,5 @@ Makefile
 # Ogólnie: katalogi buildów per konfiguracja
 Debug/
 Release/
+
+AC_EASY/

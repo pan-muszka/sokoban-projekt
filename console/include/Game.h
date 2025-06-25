@@ -8,7 +8,8 @@ private:
     Level level;
 public:
     Game();
-    void run();
+    void run(GameMap gameMap);
+    std::vector<GameMap> getMaps();
 };
 
 

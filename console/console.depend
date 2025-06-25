@@ -1,31 +1,34 @@
 # depslib dependency file v1.0
-1750615132 source:c:\programming-projects\c++\sokoban\console\main.cpp
+1750872197 source:c:\programming-projects\c++\sokoban\console\main.cpp
 	"Game.h"
 	<cstdio>
 	<conio.h>
 	<iostream>
 	<windows.h>
 
-1750612319 c:\programming-projects\c++\sokoban\console\include\game.h
+1750860093 c:\programming-projects\c++\sokoban\console\include\game.h
 	"Level.h"
 
-1750612319 c:\programming-projects\c++\sokoban\core\level.h
+1750859832 c:\programming-projects\c++\sokoban\core\level.h
 	<vector>
 	<string>
+	<memory>
+	"Structs.h"
 
-1750615193 source:c:\programming-projects\c++\sokoban\console\src\game.cpp
+1750859871 source:c:\programming-projects\c++\sokoban\console\src\game.cpp
 	"Game.h"
 	<iostream>
 	<conio.h>
 	<windows.h>
 
-1750612319 source:c:\programming-projects\c++\sokoban\core\level.cpp
+1750860062 source:c:\programming-projects\c++\sokoban\core\level.cpp
 	"Level.h"
 	"rapidjson/document.h"
 	"rapidjson/filereadstream.h"
 	<fstream>
 	<iostream>
 	<cstdio>
+	<filesystem>
 
 1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\document.h
 	"reader.h"
@@ -133,4 +136,11 @@
 1750612319 c:\programming-projects\c++\sokoban\core\rapidjson\filereadstream.h
 	"stream.h"
 	<cstdio>
+
+1750621609 source:c:\programming-projects\c++\sokoban\core\mapsloader.cpp
+	"MapsLoader.h"
+
+1750621609 c:\programming-projects\c++\sokoban\core\mapsloader.h
+
+1750859822 c:\programming-projects\c++\sokoban\core\structs.h
 

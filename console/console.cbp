@@ -14,6 +14,7 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
+					<Add directory="core" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -24,6 +25,7 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
+					<Add directory="core" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,6 +42,7 @@
 			<Mode after="always" />
 		</ExtraCommands>
 		<Unit filename="../core/Level.cpp" />
+		<Unit filename="../core/Structs.h" />
 		<Unit filename="include/Game.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Game.cpp" />
